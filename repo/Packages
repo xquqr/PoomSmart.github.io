@@ -481,9 +481,9 @@ Depends: mobilesubstrate, firmware (>= 10.0), firmware (<< 12.1), com.ps.emojiat
 Conflicts: com.ps.emoji10wt
 Architecture: iphoneos-arm
 Filename: ./debs//com.ps.emojiportwt_1.2.2h_iphoneos-arm.deb
-Size: 684
-Installed-Size: 109500
-MD5sum: 1a4b5d3c19f2760514d9a7611d3b01a5
+Size: 6273716
+Installed-Size: 51344
+MD5sum: 30a7f54f9579ac5cf7377ac6a7936951
 Description: Latest emojis for iOS 10.0-11.4
 Name: EmojiPort (iOS 10.0-11.4)
 Author: PoomSmart
