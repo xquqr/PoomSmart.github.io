@@ -241,6 +241,21 @@ Name: EmojiAttributes
 Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/emojiattributes/index.html
 
+Package: com.ps.emojiattributes
+Version: 1.3.14i
+Section: Tweaks
+Maintainer: PoomSmart
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: ./debs//com.ps.emojiattributes_1.3.14i_iphoneos-arm.deb
+Size: 30450
+Installed-Size: 444
+MD5sum: 83d1009058d11413d9ff8bc7e423f288
+Description: Fix Emoji Attributes.
+Name: EmojiAttributes
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/emojiattributes/index.html
+
 Package: com.ps.emojidarkstyle
 Version: 1.0.5
 Section: Tweaks
@@ -452,6 +467,22 @@ Installed-Size: 10184
 MD5sum: ecc5db60200e373b7ab917f9e4ad7cdc
 Description: Latest emojis for iOS 10.0-11.0
 Name: EmojiPort (iOS 10.0-11.0)
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/emojiportwt/index.html
+
+Package: com.ps.emojiportwt
+Version: 1.2.2j
+Section: Tweaks
+Maintainer: PoomSmart
+Depends: mobilesubstrate, firmware (>= 10.0), firmware (<< 12.1), com.ps.emojiattributes, com.ps.emojilibrary
+Conflicts: com.ps.emoji10wt
+Architecture: iphoneos-arm
+Filename: ./debs//com.ps.emojiportwt_1.2.2j_iphoneos-arm.deb
+Size: 2770952
+Installed-Size: 11764
+MD5sum: 6ec33e1fa8c7ff44c8baa4bf83edeb37
+Description: Latest emojis for iOS 10.0-11.4
+Name: EmojiPort (iOS 10.0-11.4)
 Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/emojiportwt/index.html
 
