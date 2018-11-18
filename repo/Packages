@@ -39,19 +39,6 @@ Description: Amber-ify your LED torch.
 Name: Amber
 Author: PoomSmart
 
-Package: com.ps.amber
-Version: 0.0.2.1
-Section: Tweaks
-Depends: mobilesubstrate, firmware (>= 7.0), gsc.camera-flash, com.a3tweaks.flipswitch
-Architecture: iphoneos-arm
-Filename: ./debs//com.ps.amber_0.0.2.1_iphoneos-arm.deb
-Size: 9404
-Installed-Size: 404
-MD5sum: c7f6d9405135f21b402f63b9e21b6fef
-Description: Amber-ify your LED torch.
-Name: Amber
-Author: PoomSmart
-
 Package: com.ps.anysuggestemojiim
 Version: 1.0
 Section: Tweaks
@@ -197,51 +184,6 @@ Name: EModeji
 Author: PoomSmart
 
 Package: com.ps.emojiattributes
-Version: 1.3.13
-Section: Tweaks
-Maintainer: PoomSmart
-Depends: mobilesubstrate
-Architecture: iphoneos-arm
-Filename: ./debs//com.ps.emojiattributes_1.3.13_iphoneos-arm.deb
-Size: 25010
-Installed-Size: 364
-MD5sum: 7d7152562258c249b0c2ad243fb27f17
-Description: Fix Emoji Attributes.
-Name: EmojiAttributes
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/emojiattributes/index.html
-
-Package: com.ps.emojiattributes
-Version: 1.3.14h
-Section: Tweaks
-Maintainer: PoomSmart
-Depends: mobilesubstrate
-Architecture: iphoneos-arm
-Filename: ./debs//com.ps.emojiattributes_1.3.14h_iphoneos-arm.deb
-Size: 30738
-Installed-Size: 444
-MD5sum: 906cd214c392c4c25155af136f4a3e50
-Description: Fix Emoji Attributes.
-Name: EmojiAttributes
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/emojiattributes/index.html
-
-Package: com.ps.emojiattributes
-Version: 1.3.14g
-Section: Tweaks
-Maintainer: PoomSmart
-Depends: mobilesubstrate
-Architecture: iphoneos-arm
-Filename: ./debs//com.ps.emojiattributes_1.3.14g_iphoneos-arm.deb
-Size: 25986
-Installed-Size: 348
-MD5sum: d65f78e85b878ea45391d2237b7513b3
-Description: Fix Emoji Attributes.
-Name: EmojiAttributes
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/emojiattributes/index.html
-
-Package: com.ps.emojiattributes
 Version: 1.3.14i
 Section: Tweaks
 Maintainer: PoomSmart
@@ -287,38 +229,6 @@ Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/emojifontmanager/index.html
 Icon: file:///Library/PreferenceBundles/EFMPref.bundle/EFMPref@2x.png
 
-Package: com.ps.emojifontmanager
-Version: 0.0.4
-Section: Tweaks
-Maintainer: PoomSmart
-Depends: mobilesubstrate, preferenceloader, com.ps.emojilibrary, firmware (>= 6.0), ws.hbang.common (>= 1.11.3)
-Architecture: iphoneos-arm
-Filename: ./debs//com.ps.emojifontmanager_0.0.4_iphoneos-arm.deb
-Size: 36696
-Installed-Size: 268
-MD5sum: 651d529f2b13c6b67c3559a33a4395f8
-Description: Emoji font override and management.
-Name: EmojiFontManager
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/emojifontmanager/index.html
-Icon: file:///Library/PreferenceBundles/EFMPref.bundle/EFMPref@2x.png
-
-Package: com.ps.emojifontmanager
-Version: 0.0.5d
-Section: Tweaks
-Maintainer: PoomSmart
-Depends: mobilesubstrate, preferenceloader, com.ps.emojilibrary, firmware (>= 6.0), ws.hbang.common (>= 1.11.3)
-Architecture: iphoneos-arm
-Filename: ./debs//com.ps.emojifontmanager_0.0.5d_iphoneos-arm.deb
-Size: 36640
-Installed-Size: 236
-MD5sum: 64caf5f3e17acade0736e92e1a2049d2
-Description: Emoji font override and management.
-Name: EmojiFontManager
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/emojifontmanager/index.html
-Icon: file:///Library/PreferenceBundles/EFMPref.bundle/EFMPref@2x.png
-
 Package: com.ps.emojilayout
 Version: 1.1.13
 Section: Tweaks
@@ -335,20 +245,6 @@ Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/emojilayout/index.html
 
 Package: com.ps.emojilibrary
-Version: 1.0.12
-Section: Development
-Maintainer: PoomSmart
-Architecture: iphoneos-arm
-Filename: ./debs//com.ps.emojilibrary_1.0.12_iphoneos-arm.deb
-Size: 33236
-Installed-Size: 376
-MD5sum: 1c33ed36df01f89217625bd3daf871be
-Description: Master library for PoomSmart's emoji tweaks
-Name: EmojiLibrary
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/emojilibrary/index.html
-
-Package: com.ps.emojilibrary
 Version: 1.0.16
 Section: Development
 Maintainer: PoomSmart
@@ -357,20 +253,6 @@ Filename: ./debs//com.ps.emojilibrary_1.0.16_iphoneos-arm.deb
 Size: 39460
 Installed-Size: 376
 MD5sum: fb99b681f7b23c0e60c1ddeed6292193
-Description: Master library for PoomSmart's emoji tweaks
-Name: EmojiLibrary
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/emojilibrary/index.html
-
-Package: com.ps.emojilibrary
-Version: 1.0.15
-Section: Development
-Maintainer: PoomSmart
-Architecture: iphoneos-arm
-Filename: ./debs//com.ps.emojilibrary_1.0.15_iphoneos-arm.deb
-Size: 39348
-Installed-Size: 376
-MD5sum: 12478941e8fec575bc1811f1bb96341d
 Description: Master library for PoomSmart's emoji tweaks
 Name: EmojiLibrary
 Author: PoomSmart
@@ -470,70 +352,6 @@ Name: EmojiPort (iOS 10.0-11.4)
 Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/emojiportwt/index.html
 
-Package: com.ps.emojiportwt
-Version: 1.2
-Section: Tweaks
-Maintainer: PoomSmart
-Depends: mobilesubstrate, firmware (>= 10.0), firmware (<< 11.1), com.ps.emojiattributes, com.ps.emojilibrary
-Conflicts: com.ps.emoji10wt
-Architecture: iphoneos-arm
-Filename: ./debs//com.ps.emojiportwt_1.2_iphoneos-arm.deb
-Size: 2132008
-Installed-Size: 10184
-MD5sum: ecc5db60200e373b7ab917f9e4ad7cdc
-Description: Latest emojis for iOS 10.0-11.0
-Name: EmojiPort (iOS 10.0-11.0)
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/emojiportwt/index.html
-
-Package: com.ps.emojiportwt
-Version: 1.2.2f
-Section: Tweaks
-Maintainer: PoomSmart
-Depends: mobilesubstrate, firmware (>= 10.0), firmware (<< 12.1), com.ps.emojiattributes, com.ps.emojilibrary
-Conflicts: com.ps.emoji10wt
-Architecture: iphoneos-arm
-Filename: ./debs//com.ps.emojiportwt_1.2.2f_iphoneos-arm.deb
-Size: 6296398
-Installed-Size: 51440
-MD5sum: b76c90b5c127f475a8853b6a88935280
-Description: Latest emojis for iOS 10.0-11.4
-Name: EmojiPort (iOS 10.0-11.4)
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/emojiportwt/index.html
-
-Package: com.ps.emojiportwt
-Version: 1.2.2i
-Section: Tweaks
-Maintainer: PoomSmart
-Depends: mobilesubstrate, firmware (>= 10.0), firmware (<< 12.1), com.ps.emojiattributes, com.ps.emojilibrary
-Conflicts: com.ps.emoji10wt
-Architecture: iphoneos-arm
-Filename: ./debs//com.ps.emojiportwt_1.2.2i_iphoneos-arm.deb
-Size: 6276118
-Installed-Size: 51344
-MD5sum: 413a81813497a6ede2bca7a7ce3a282d
-Description: Latest emojis for iOS 10.0-11.4
-Name: EmojiPort (iOS 10.0-11.4)
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/emojiportwt/index.html
-
-Package: com.ps.emojiportwt
-Version: 1.2.2h
-Section: Tweaks
-Maintainer: PoomSmart
-Depends: mobilesubstrate, firmware (>= 10.0), firmware (<< 12.1), com.ps.emojiattributes, com.ps.emojilibrary
-Conflicts: com.ps.emoji10wt
-Architecture: iphoneos-arm
-Filename: ./debs//com.ps.emojiportwt_1.2.2h_iphoneos-arm.deb
-Size: 6273716
-Installed-Size: 51344
-MD5sum: 30a7f54f9579ac5cf7377ac6a7936951
-Description: Latest emojis for iOS 10.0-11.4
-Name: EmojiPort (iOS 10.0-11.4)
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/emojiportwt/index.html
-
 Package: com.ps.emojiresources
 Version: 1.0.9
 Section: Tweaks
@@ -586,20 +404,6 @@ Filename: ./debs//com.ps.gboardall_1.0.2_iphoneos-arm.deb
 Size: 2852
 Installed-Size: 136
 MD5sum: fdb27f57424b9d2b2aa4efb1ad0e6361
-Description: Allow unsupported emojis to show on Gboard keyboard.
-Name: GboardAll
-Author: PoomSmart
-
-Package: com.ps.gboardall
-Version: 1.0.1
-Section: Tweaks
-Maintainer: PoomSmart
-Depends: firmware (>= 8.0), mobilesubstrate
-Architecture: iphoneos-arm
-Filename: ./debs//com.ps.gboardall_1.0.1_iphoneos-arm.deb
-Size: 2796
-Installed-Size: 136
-MD5sum: 9830edfe998ba07bbdd60236d4fdd445
 Description: Allow unsupported emojis to show on Gboard keyboard.
 Name: GboardAll
 Author: PoomSmart
@@ -675,36 +479,6 @@ Description: Reachability compatibility fix for iPod 5.
 Name: ReachFix
 Author: PoomSmart
 Depiction: http://PoomSmart.github.io/repo/reachfix/index.html
-
-Package: com.ps.roundedtable
-Version: 1.0
-Section: Tweaks
-Maintainer: PoomSmart
-Depends: mobilesubstrate, preferenceloader, applist, ws.hbang.common (>= 1.2), firmware (>= 7.0)
-Architecture: iphoneos-arm
-Filename: ./debs//com.ps.roundedtable_1.0_iphoneos-arm.deb
-Size: 14194
-Installed-Size: 284
-MD5sum: 6b508c9b8548e16da8ce9d5d8440295f
-Description: Rounded UITableView.
-Name: RoundedTable
-Author: PoomSmart
-Depiction: http://PoomSmart.github.io/repo/roundedtable/index.html
-
-Package: com.ps.roundedtable
-Version: 1.0.1
-Section: Tweaks
-Maintainer: PoomSmart
-Depends: mobilesubstrate, preferenceloader, applist, ws.hbang.common (>= 1.2), firmware (>= 7.0)
-Architecture: iphoneos-arm
-Filename: ./debs//com.ps.roundedtable_1.0.1_iphoneos-arm.deb
-Size: 13940
-Installed-Size: 284
-MD5sum: b8e06170730b82949df3217be43d380f
-Description: Rounded UITableView.
-Name: RoundedTable
-Author: PoomSmart
-Depiction: http://PoomSmart.github.io/repo/roundedtable/index.html
 
 Package: com.ps.sixtyfps
 Version: 0.0.4
