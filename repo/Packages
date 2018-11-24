@@ -26,6 +26,20 @@ Description: Flipswitch for 3G Unrestrictor.
 Name: 3G Unrestrictor Flipswitch
 Author: PoomSmart
 
+Package: com.ps.adguardunbounded
+Version: 0.0.1
+Section: Tweaks
+Maintainer: PoomSmart
+Depends: mobilesubstrate, com.ps.blockemall
+Architecture: iphoneos-arm
+Filename: ./debs//com.ps.adguardunbounded_0.0.1_iphoneos-arm.deb
+Size: 1954
+Installed-Size: 72
+MD5sum: 33c144c3227066e07a8df1a0de1fe2d2
+Description: Over 50000 rules for Adguard app.
+Name: Adguard Unbounded
+Author: PoomSmart
+
 Package: com.ps.amber
 Version: 0.0.2.2
 Section: Tweaks
@@ -80,6 +94,20 @@ Installed-Size: 120
 MD5sum: 168d81a9c14e2bf49aaa10c49b6842ff
 Description: Bigger emoji for iMessages
 Name: Bigmoji
+Author: PoomSmart
+
+Package: com.ps.blockemall
+Version: 0.0.1
+Section: Tweaks
+Maintainer: PoomSmart
+Depends: mobilesubstrate, firmware (>= 9.0)
+Architecture: iphoneos-arm
+Filename: ./debs//com.ps.blockemall_0.0.1_iphoneos-arm.deb
+Size: 2572
+Installed-Size: 72
+MD5sum: a86edbe32b81dd53366d80e9201703c0
+Description: No 50,000 entries limit for Safari content blockers.
+Name: BlockEmAll
 Author: PoomSmart
 
 Package: com.ps.calleridfs
