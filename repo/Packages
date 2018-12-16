@@ -53,6 +53,19 @@ Description: Amber-ify your LED torch.
 Name: Amber
 Author: PoomSmart
 
+Package: com.ps.amber
+Version: 0.0.2.3
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 7.0), gsc.camera-flash, com.a3tweaks.flipswitch, firmware (<< 11.0) | com.opa334.ccsupport
+Architecture: iphoneos-arm
+Filename: ./debs//com.ps.amber_0.0.2.3_iphoneos-arm.deb
+Size: 20794
+Installed-Size: 248
+MD5sum: 4caf057f8befdf52cee17089456cf32e
+Description: Amber-ify your LED torch.
+Name: Amber
+Author: PoomSmart
+
 Package: com.ps.anysuggestemojiim
 Version: 1.0
 Section: Tweaks
@@ -226,6 +239,22 @@ Name: EmojiAttributes
 Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/emojiattributes/index.html
 
+Package: com.ps.emojiattributes
+Version: 1.3.15
+Section: Tweaks
+Maintainer: PoomSmart
+Depends: mobilesubstrate
+Conflicts: com.ps.flexmoji
+Architecture: iphoneos-arm
+Filename: ./debs//com.ps.emojiattributes_1.3.15_iphoneos-arm.deb
+Size: 31344
+Installed-Size: 444
+MD5sum: 3c3469a7259d1c22c51478fea85e26d1
+Description: Various under-the-hood fixes for emoji display.
+Name: EmojiAttributes
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/emojiattributes/index.html
+
 Package: com.ps.emojidarkstyle
 Version: 1.0.5
 Section: Tweaks
@@ -273,20 +302,6 @@ Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/emojilayout/index.html
 
 Package: com.ps.emojilibrary
-Version: 1.0.16
-Section: Development
-Maintainer: PoomSmart
-Architecture: iphoneos-arm
-Filename: ./debs//com.ps.emojilibrary_1.0.16_iphoneos-arm.deb
-Size: 39460
-Installed-Size: 376
-MD5sum: fb99b681f7b23c0e60c1ddeed6292193
-Description: Master library for PoomSmart's emoji tweaks
-Name: EmojiLibrary
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/emojilibrary/index.html
-
-Package: com.ps.emojilibrary
 Version: 1.0.17
 Section: Development
 Maintainer: PoomSmart
@@ -331,22 +346,6 @@ Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/emojiportalpha/index.html
 
 Package: com.ps.emojiportfix
-Version: 1.5.10
-Section: Tweaks
-Maintainer: PoomSmart
-Depends: mobilesubstrate, firmware (>= 8.3), firmware (<< 9.0), com.ps.emojiattributes, com.ps.emojilocalization, com.ps.emojiresources, com.ps.emojilibrary
-Conflicts: org.thebigboss.emoji83plus, com.ps.emoji9fix, com.ps.emoji10fix
-Architecture: iphoneos-arm
-Filename: ./debs//com.ps.emojiportfix_1.5.10_iphoneos-arm.deb
-Size: 8000
-Installed-Size: 268
-MD5sum: 48463b6e51e2045902d4ce43a63c4a3b
-Description: Latest emojis for iOS 8.3-8.4
-Name: EmojiPort (iOS 8.3-8.4)
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/emojiportfix/index.html
-
-Package: com.ps.emojiportfix
 Version: 1.5.11
 Section: Tweaks
 Maintainer: PoomSmart
@@ -357,6 +356,22 @@ Filename: ./debs//com.ps.emojiportfix_1.5.11_iphoneos-arm.deb
 Size: 8254
 Installed-Size: 268
 MD5sum: 8bcbdf9785dbb0acd1295770fbf61b5a
+Description: Latest emojis for iOS 8.3-8.4
+Name: EmojiPort (iOS 8.3-8.4)
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/emojiportfix/index.html
+
+Package: com.ps.emojiportfix
+Version: 1.5.12
+Section: Tweaks
+Maintainer: PoomSmart
+Depends: mobilesubstrate, firmware (>= 8.3), firmware (<< 9.0), com.ps.emojiattributes, com.ps.emojilocalization, com.ps.emojiresources, com.ps.emojilibrary (>= 1.0.17)
+Conflicts: org.thebigboss.emoji83plus, com.ps.emoji9fix, com.ps.emoji10fix
+Architecture: iphoneos-arm
+Filename: ./debs//com.ps.emojiportfix_1.5.12_iphoneos-arm.deb
+Size: 8264
+Installed-Size: 268
+MD5sum: d664853eb6fad8a5966eb1450321b631
 Description: Latest emojis for iOS 8.3-8.4
 Name: EmojiPort (iOS 8.3-8.4)
 Author: PoomSmart
@@ -379,20 +394,36 @@ Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/emojiportlegacy/index.html
 
 Package: com.ps.emojiportlegacy
-Version: 1.6.11
+Version: 1.6.13
 Section: Tweaks
 Maintainer: PoomSmart
-Depends: mobilesubstrate, preferenceloader, com.ps.flexmoji, firmware (>= 6.0), firmware (<< 8.3), com.ps.emojilayout, com.ps.emojiattributes, com.ps.emojilocalization, com.ps.emojilibrary, firmware (<< 7.0) | com.ps.emojiresources
+Depends: mobilesubstrate, preferenceloader, firmware (>= 6.0), firmware (<< 8.3), com.ps.emojilayout, com.ps.emojiattributes, com.ps.emojilocalization, com.ps.emojilibrary, firmware (<< 7.0) | com.ps.emojiresources
 Conflicts: com.ps.emoji9legacy, com.ps.emoji10legacy
 Architecture: iphoneos-arm
-Filename: ./debs//com.ps.emojiportlegacy_1.6.11_iphoneos-arm.deb
-Size: 57402
+Filename: ./debs//com.ps.emojiportlegacy_1.6.13_iphoneos-arm.deb
+Size: 57390
 Installed-Size: 376
-MD5sum: e44e0fd40f53d6ed4190e6ce1f7f81c0
+MD5sum: a74f9ad479b4d86bff809abdffbb32b4
 Description: Latest emojis for iOS 6.0-8.2
 Name: EmojiPort (iOS 6.0-8.2)
 Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/emojiportlegacy/index.html
+
+Package: com.ps.emojiportps
+Version: 1.5.8
+Section: Tweaks
+Maintainer: PoomSmart
+Depends: mobilesubstrate, firmware (>= 9.0), firmware (<< 10.0), com.ps.emojiattributes, com.ps.emojilibrary (>= 1.0.17), firmware (>= 9.1) | com.ps.emojilocalization, firmware (>= 9.1) | com.ps.emojiresources
+Conflicts: org.thebigboss.emoji83plus, com.hamzasood.emoji9, com.ps.emoji9ps, com.ps.emoji10ps
+Architecture: iphoneos-arm
+Filename: ./debs//com.ps.emojiportps_1.5.8_iphoneos-arm.deb
+Size: 6958
+Installed-Size: 268
+MD5sum: d45c2d1b2485ba4022f38d19f58a9c63
+Description: Latest emojis for iOS 9.0-9.3
+Name: EmojiPort (iOS 9.0-9.3)
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/emojiportps/index.html
 
 Package: com.ps.emojiportps
 Version: 1.5.7
@@ -409,38 +440,6 @@ Description: Latest emojis for iOS 9.0-9.3
 Name: EmojiPort (iOS 9.0-9.3)
 Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/emojiportps/index.html
-
-Package: com.ps.emojiportps
-Version: 1.5.6
-Section: Tweaks
-Maintainer: PoomSmart
-Depends: mobilesubstrate, firmware (>= 9.0), firmware (<< 10.0), com.ps.emojiattributes, com.ps.emojilibrary, firmware (>= 9.1) | com.ps.emojilocalization, firmware (>= 9.1) | com.ps.emojiresources
-Conflicts: org.thebigboss.emoji83plus, com.hamzasood.emoji9, com.ps.emoji9ps, com.ps.emoji10ps
-Architecture: iphoneos-arm
-Filename: ./debs//com.ps.emojiportps_1.5.6_iphoneos-arm.deb
-Size: 6730
-Installed-Size: 268
-MD5sum: 8c104387a765b54938df718ece658f66
-Description: Latest emojis for iOS 9.0-9.3
-Name: EmojiPort (iOS 9.0-9.3)
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/emojiportps/index.html
-
-Package: com.ps.emojiportwt
-Version: 1.2.2k
-Section: Tweaks
-Maintainer: PoomSmart
-Depends: mobilesubstrate, firmware (>= 10.0), firmware (<< 12.1), com.ps.emojiattributes, com.ps.emojilibrary
-Conflicts: com.ps.emoji10wt
-Architecture: iphoneos-arm
-Filename: ./debs//com.ps.emojiportwt_1.2.2k_iphoneos-arm.deb
-Size: 2773980
-Installed-Size: 11764
-MD5sum: b8b0b5a24004280c3c7b730c15f7786a
-Description: Latest emojis for iOS 10.0-11.4
-Name: EmojiPort (iOS 10.0-11.4)
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/emojiportwt/index.html
 
 Package: com.ps.emojiportwt
 Version: 1.2.3
@@ -569,6 +568,21 @@ Installed-Size: 128
 MD5sum: c312000efcbc2b8c224a1ba79b7d0e21
 Description: Toggle for power actions, with confirmation
 Name: Power Option FS
+Author: PoomSmart
+
+Package: com.ps.quadlight
+Version: 0.0.1
+Section: Tweaks
+Maintainer: PoomSmart
+Depends: mobilesubstrate
+Conflicts: com.ps.amber
+Architecture: iphoneos-arm
+Filename: ./debs//com.ps.quadlight_0.0.1_iphoneos-arm.deb
+Size: 2196
+Installed-Size: 56
+MD5sum: a51630135c9c16956add95a5ee7b988d
+Description: Turn on all 4 LEDs on iPhone 7 and above.
+Name: QuadLight
 Author: PoomSmart
 
 Package: com.ps.reachfix
