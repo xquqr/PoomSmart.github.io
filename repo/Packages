@@ -54,14 +54,14 @@ Name: Amber
 Author: PoomSmart
 
 Package: com.ps.amber
-Version: 0.0.2.3
+Version: 0.0.2.4
 Section: Tweaks
 Depends: mobilesubstrate, firmware (>= 7.0), gsc.camera-flash, com.a3tweaks.flipswitch, firmware (<< 11.0) | com.opa334.ccsupport
 Architecture: iphoneos-arm
-Filename: ./debs//com.ps.amber_0.0.2.3_iphoneos-arm.deb
-Size: 20794
+Filename: ./debs//com.ps.amber_0.0.2.4_iphoneos-arm.deb
+Size: 20826
 Installed-Size: 248
-MD5sum: 4caf057f8befdf52cee17089456cf32e
+MD5sum: addd08a2a0ae4b033726cb77c0716adc
 Description: Amber-ify your LED torch.
 Name: Amber
 Author: PoomSmart
