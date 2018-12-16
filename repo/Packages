@@ -485,20 +485,6 @@ Description: Flipswitch for FLEXible.
 Name: FLEXible Flipswitch
 Author: PoomSmart
 
-Package: com.ps.flexmoji
-Version: 1.0.3
-Section: Tweaks
-Maintainer: PoomSmart
-Depends: mobilesubstrate, firmware (>= 6.0), firmware (<< 10.0)
-Architecture: iphoneos-arm
-Filename: ./debs//com.ps.flexmoji_1.0.3_iphoneos-arm.deb
-Size: 5238
-Installed-Size: 120
-MD5sum: 712bcdba6272348d318d3d56ee0ae668
-Description: Unrestricted iOS emoji font size.
-Name: Flexmoji [Beta]
-Author: PoomSmart
-
 Package: com.ps.gboardall
 Version: 1.0.2
 Section: Tweaks
