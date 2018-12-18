@@ -627,6 +627,20 @@ Name: 60fps
 Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/60fps/index.html
 
+Package: com.ps.sixtyfps
+Version: 0.0.5a
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 7.0), gsc.still-camera
+Architecture: iphoneos-arm
+Filename: ./debs//com.ps.sixtyfps_0.0.5a_iphoneos-arm.deb
+Size: 6244
+Installed-Size: 136
+MD5sum: 9f8a6b226c7357d456b70db8163f959c
+Description: 60 fps capture support for legacy camera.
+Name: 60fps
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/60fps/index.html
+
 Package: com.ps.slicesflipswitch
 Version: 0.0.1-1
 Section: Addons (Flipswitch)
