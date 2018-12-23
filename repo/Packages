@@ -238,6 +238,22 @@ Name: EModeji
 Author: PoomSmart
 
 Package: com.ps.emojiattributes
+Version: 1.3.16
+Section: Tweaks
+Maintainer: PoomSmart
+Depends: mobilesubstrate
+Conflicts: com.ps.flexmoji
+Architecture: iphoneos-arm
+Filename: ./debs//com.ps.emojiattributes_1.3.16_iphoneos-arm.deb
+Size: 31694
+Installed-Size: 444
+MD5sum: 6a419459912bb3fd1481b8ca339def5f
+Description: Various under-the-hood fixes for emoji display.
+Name: EmojiAttributes
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/emojiattributes/index.html
+
+Package: com.ps.emojiattributes
 Version: 1.3.14i
 Section: Tweaks
 Maintainer: PoomSmart
