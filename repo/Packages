@@ -41,19 +41,6 @@ Name: Adguard Unbounded
 Author: PoomSmart
 
 Package: com.ps.amber
-Version: 0.0.2.2
-Section: Tweaks
-Depends: mobilesubstrate, firmware (>= 7.0), gsc.camera-flash, com.a3tweaks.flipswitch, firmware (<< 11.0) | com.opa334.ccsupport
-Architecture: iphoneos-arm
-Filename: ./debs//com.ps.amber_0.0.2.2_iphoneos-arm.deb
-Size: 26988
-Installed-Size: 448
-MD5sum: 9de701a4af14f1ea18305361815f0d64
-Description: Amber-ify your LED torch.
-Name: Amber
-Author: PoomSmart
-
-Package: com.ps.amber
 Version: 0.0.2.4
 Section: Tweaks
 Depends: mobilesubstrate, firmware (>= 7.0), gsc.camera-flash, com.a3tweaks.flipswitch, firmware (<< 11.0) | com.opa334.ccsupport
@@ -616,20 +603,6 @@ Author: PoomSmart
 Depiction: http://PoomSmart.github.io/repo/reachfix/index.html
 
 Package: com.ps.sixtyfps
-Version: 0.0.4
-Section: Tweaks
-Depends: mobilesubstrate, firmware (>= 7.0), gsc.still-camera
-Architecture: iphoneos-arm
-Filename: ./debs//com.ps.sixtyfps_0.0.4_iphoneos-arm.deb
-Size: 3272
-Installed-Size: 72
-MD5sum: a39452fbdcd2c25d33ade1110f899188
-Description: 60 fps capture support for legacy camera.
-Name: 60fps
-Author: PoomSmart
-Depiction: httpd://poomdmart.github.io/repo/60fps/index.html
-
-Package: com.ps.sixtyfps
 Version: 0.0.5
 Section: Tweaks
 Depends: mobilesubstrate, firmware (>= 7.0), gsc.still-camera
@@ -638,6 +611,20 @@ Filename: ./debs//com.ps.sixtyfps_0.0.5_iphoneos-arm.deb
 Size: 6294
 Installed-Size: 136
 MD5sum: 71ae70a0954f7653782697df319c29bc
+Description: 60 fps capture support for legacy camera.
+Name: 60fps
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/60fps/index.html
+
+Package: com.ps.sixtyfps
+Version: 0.0.6
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 7.0), gsc.still-camera
+Architecture: iphoneos-arm
+Filename: ./debs//com.ps.sixtyfps_0.0.6_iphoneos-arm.deb
+Size: 6528
+Installed-Size: 136
+MD5sum: 149c8f52a24be265965d257863329611
 Description: 60 fps capture support for legacy camera.
 Name: 60fps
 Author: PoomSmart
