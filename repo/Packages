@@ -41,6 +41,19 @@ Name: Adguard Unbounded
 Author: PoomSmart
 
 Package: com.ps.amber
+Version: 0.0.2.6
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 7.0), gsc.camera-flash, com.a3tweaks.flipswitch, firmware (<< 11.0) | com.opa334.ccsupport
+Architecture: iphoneos-arm
+Filename: ./debs//com.ps.amber_0.0.2.6_iphoneos-arm.deb
+Size: 22304
+Installed-Size: 248
+MD5sum: 98546c89be10cbbda4d1661e6055364e
+Description: Amber-ify your LED torch.
+Name: Amber
+Author: PoomSmart
+
+Package: com.ps.amber
 Version: 0.0.2.4
 Section: Tweaks
 Depends: mobilesubstrate, firmware (>= 7.0), gsc.camera-flash, com.a3tweaks.flipswitch, firmware (<< 11.0) | com.opa334.ccsupport
@@ -570,21 +583,6 @@ Installed-Size: 128
 MD5sum: c312000efcbc2b8c224a1ba79b7d0e21
 Description: Toggle for power actions, with confirmation
 Name: Power Option FS
-Author: PoomSmart
-
-Package: com.ps.quadlight
-Version: 0.0.1
-Section: Tweaks
-Maintainer: PoomSmart
-Depends: mobilesubstrate
-Conflicts: com.ps.amber
-Architecture: iphoneos-arm
-Filename: ./debs//com.ps.quadlight_0.0.1_iphoneos-arm.deb
-Size: 2196
-Installed-Size: 56
-MD5sum: a51630135c9c16956add95a5ee7b988d
-Description: Turn on all 4 LEDs on iPhone 7 and above.
-Name: QuadLight
 Author: PoomSmart
 
 Package: com.ps.reachfix
