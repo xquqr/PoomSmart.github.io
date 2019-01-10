@@ -41,53 +41,14 @@ Name: Adguard Unbounded
 Author: PoomSmart
 
 Package: com.ps.amber
-Version: 0.0.2.6
+Version: 0.0.2.8
 Section: Tweaks
 Depends: mobilesubstrate, firmware (>= 7.0), gsc.camera-flash, com.a3tweaks.flipswitch, firmware (<< 11.0) | com.opa334.ccsupport
 Architecture: iphoneos-arm
-Filename: ./debs//com.ps.amber_0.0.2.6_iphoneos-arm.deb
-Size: 22304
+Filename: ./debs//com.ps.amber_0.0.2.8_iphoneos-arm.deb
+Size: 22262
 Installed-Size: 248
-MD5sum: 98546c89be10cbbda4d1661e6055364e
-Description: Amber-ify your LED torch.
-Name: Amber
-Author: PoomSmart
-
-Package: com.ps.amber
-Version: 0.0.2.7
-Section: Tweaks
-Depends: mobilesubstrate, firmware (>= 7.0), gsc.camera-flash, com.a3tweaks.flipswitch, firmware (<< 11.0) | com.opa334.ccsupport
-Architecture: iphoneos-arm
-Filename: ./debs//com.ps.amber_0.0.2.7_iphoneos-arm.deb
-Size: 22260
-Installed-Size: 248
-MD5sum: 300725fdce226ad243d8c7544bf71c69
-Description: Amber-ify your LED torch.
-Name: Amber
-Author: PoomSmart
-
-Package: com.ps.amber
-Version: 0.0.2.4
-Section: Tweaks
-Depends: mobilesubstrate, firmware (>= 7.0), gsc.camera-flash, com.a3tweaks.flipswitch, firmware (<< 11.0) | com.opa334.ccsupport
-Architecture: iphoneos-arm
-Filename: ./debs//com.ps.amber_0.0.2.4_iphoneos-arm.deb
-Size: 20826
-Installed-Size: 248
-MD5sum: addd08a2a0ae4b033726cb77c0716adc
-Description: Amber-ify your LED torch.
-Name: Amber
-Author: PoomSmart
-
-Package: com.ps.amber
-Version: 0.0.2.5
-Section: Tweaks
-Depends: mobilesubstrate, firmware (>= 7.0), gsc.camera-flash, com.a3tweaks.flipswitch, firmware (<< 11.0) | com.opa334.ccsupport
-Architecture: iphoneos-arm
-Filename: ./debs//com.ps.amber_0.0.2.5_iphoneos-arm.deb
-Size: 20832
-Installed-Size: 248
-MD5sum: 2c301f66945471acd548f9c142a358f6
+MD5sum: 354718d1aaab840a6308e38191d45cd5
 Description: Amber-ify your LED torch.
 Name: Amber
 Author: PoomSmart
